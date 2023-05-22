@@ -56,8 +56,8 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'cera.urls'
-
+#ROOT_URLCONF = 'cera.urls'
+ROOT_URLCONF = 'vercel_app.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',

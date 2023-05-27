@@ -26,8 +26,8 @@ SECRET_KEY = 'django-insecure-xkj66!m7uk7*nfqb6e1%q#8$u-7c5)h%nyip3f*9)*l7fntgh5
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+#ALLOWED_HOSTS = ['ecom-django-git-main-chiragziniya.vercel.app']
 ALLOWED_HOSTS = []
-
 
 # Application definition
 
@@ -55,7 +55,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'cera.urls'
-
+#ROOT_URLCONF = 'vercel_app.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',

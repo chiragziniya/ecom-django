@@ -2,7 +2,8 @@
     "builds": [
       {
         "src": "cera/wsgi.py",
-        "use": "@vercel/python"
+        "use": "@vercel/python",
+        "config":{"maxLabdaSize":"15mb","runtime":"python3.9"}
       }
     ],
     "routes": [

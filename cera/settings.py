@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-xkj66!m7uk7*nfqb6e1%q#8$u-7c5)h%nyip3f*9)*l7fntgh5
 DEBUG = True
 
 #ALLOWED_HOSTS = ['ecom-django-git-main-chiragziniya.vercel.app']
-ALLOWED_HOSTS = ['*','.vercel.app']
+ALLOWED_HOSTS = ['127.0.0.1', '.vercel.app']
 
 # Application definition
 

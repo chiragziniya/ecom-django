@@ -1,0 +1,14 @@
+{
+    "builds": [
+      {
+        "src": "cera/wsgi.py",
+        "use": "@vercel/python"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "cera/wsgi.py"
+      }
+    ]
+}
